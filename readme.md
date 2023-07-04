@@ -8,7 +8,6 @@ This GitHub repository serves as a collection of automation tools and scripts to
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -18,33 +17,25 @@ Power Apps is a low-code platform that enables developers to build custom busine
 ## Features
 This repository provides the following automation tools and scripts:
 
-- **Template Generator**: A script that generates preconfigured project templates for different types of Power Apps applications. It sets up the necessary folder structure, default components, and initial configurations, enabling developers to start new projects rapidly.
+## Bulk Create Items in SharePoint List
 
-- **Solution Exporter**: An automation script that exports Power Apps solutions to streamline the process of sharing and collaborating with other developers. It automates the tedious task of manually exporting solutions, reducing human error and saving time.
+The "Bulk Create Items in SharePoint List" automation provides a streamlined solution for creating multiple items simultaneously in a SharePoint list. This automation script allows you to import a CSV or Excel file containing the data for the items you want to create. It then processes the file, maps the columns to the corresponding fields in the SharePoint list, and performs the bulk creation of the items. By leveraging this automation, you can significantly reduce the time and effort required to populate a SharePoint list with multiple items, making data entry tasks more efficient.
 
-- **Data Importer**: This tool automates the process of importing data into Power Apps solutions. It allows developers to define data mapping and provides options for bulk importing data from various sources, such as CSV files or external databases.
+## Create Columns in SharePoint List
 
-- **Localization Helper**: A script that assists with localization tasks in Power Apps. It helps identify and extract translatable strings, generates language resource files, and automates the process of applying translations to different language versions of an application.
+The "Create Columns in SharePoint List" automation simplifies the process of adding new columns to a SharePoint list. Instead of manually creating each column one by one through the SharePoint UI, this automation script allows you to define the column properties and configurations in a convenient format, such as a JSON file. The script then automates the creation of the columns in the specified SharePoint list, ensuring consistency and accuracy across different column creations. With this automation, you can easily manage and update columns in your SharePoint lists, saving valuable development time and effort.
 
-- **Deployment Script**: This script automates the deployment of Power Apps solutions to different environments, such as development, testing, and production. It handles the packaging, validation, and deployment steps, making the deployment process more reliable and efficient.
+## Create Lists in SharePoint
+
+The "Create Lists in SharePoint" automation facilitates the creation of new lists within a SharePoint site. With this automation script, you can define the list properties and configurations using a simple JSON file or through command-line parameters. The script automates the process of creating the lists, including the setup of columns, views, and any additional configurations specified. By utilizing this automation, you can quickly and consistently create new lists in SharePoint, empowering you to efficiently organize and manage data within your SharePoint sites.
+
+## Remove Title as Mandatory
+
+The "Remove Title as Mandatory" automation offers a solution to remove the mandatory requirement for the "Title" field in SharePoint lists. In some scenarios, the "Title" field is automatically set as mandatory by default, which can be restrictive when designing custom lists. This automation script allows you to remove the mandatory setting for the "Title" field, granting you more flexibility in defining your own mandatory and non-mandatory fields based on your specific requirements. By using this automation, you can customize the mandatory settings of SharePoint list fields, providing a more tailored and user-friendly experience for your users.
 
 ## Installation
 To use the automation tools and scripts in this repository, follow these steps:
-
-1. Clone this repository to your local machine:
-   ```
-   git clone https://github.com/your-username/power-apps-automations.git
-   ```
-
-2. Install the necessary dependencies by running the following command:
-   ```
-   npm install
-   ```
-
-3. Configure any required settings or credentials in the respective automation scripts or configuration files.
-
-## Usage
-Detailed usage instructions and examples for each automation tool can be found in the [**Usage Guide**](./docs/usage.md) located in the `docs` folder. Refer to this guide to learn how to use the tools effectively and make the most out of their features.
+-Import this solution to your environment
 
 ## Contributing
 Contributions to this repository are welcome! If you have any improvements, bug fixes, or additional automation scripts that can benefit Power Apps developers, feel free to submit a pull request. Please review the [**Contributing Guidelines**](./CONTRIBUTING.md) for more information.
