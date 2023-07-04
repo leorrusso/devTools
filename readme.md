@@ -1,6 +1,6 @@
 # Power Apps Development Automations
 
-![Power Apps Logo]((https://raw.githubusercontent.com/leorrusso/leorrusso/main/PowerApps_scalable.svg))
+<img src='https://raw.githubusercontent.com/leorrusso/leorrusso/main/PowerApps_scalable.svg' width=45 height=45/>
 
 This GitHub repository serves as a collection of automation tools and scripts to enhance the development workflow for Power Apps. These automations aim to streamline repetitive tasks, increase productivity, and improve the overall efficiency of developing Power Apps solutions.
 
